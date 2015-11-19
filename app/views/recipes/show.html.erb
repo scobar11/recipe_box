@@ -20,5 +20,20 @@
   <%= @recipe.instructions %>
 </p>
 
+<p>
+  <strong>Minutes to Prepare:</strong>
+  <%= @recipe.minutes_to_prepare %>
+</p>
+
+<p>
+  <strong>Minutes to Cook:</strong>
+  <%= @recipe.minutes_to_cook %>
+</p>
+
+<p>
+  <strong>Picture</strong>
+  <%= @recipe.picture %>
+</p>
+
 <%= link_to 'Edit', edit_recipe_path(@recipe) %> |
 <%= link_to 'Back', recipes_path %>
